@@ -100,9 +100,6 @@
 }
 
 /* testimonials */
-.testimonial-box {
-  /* position: relative; */
-}
 
 .wrapper {
   background-color: #ffffff;
@@ -112,7 +109,6 @@
   border-radius: 0.6em;
 
   box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
-
 }
 .testimonial-container {
   width: 100%;
@@ -169,6 +165,7 @@ button#prev {
 }
 .footer_section {
   padding-top: 2rem;
+  margin-top: 2rem;
 }
 .footer_section_container {
   display: grid;
@@ -193,21 +190,66 @@ button#prev {
   list-style: none;
   color: black;
 }
+.footer_contact i a{
+  color: black;
+}
+.footer_contact i a:hover{
+  color: white;
+  text-decoration: none;
+}
+.footer_service li a:hover{
+  color: white;
+  text-decoration: none;
+}
+
 .quick_link ul {
   list-style: none;
 }
+.quick_link ul li a:hover {
+  color: white!important  ;
+  text-decoration: none;
+}
+/* about */
+.about_page_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding-top: 3rem;
+}
 /* services */
-.boost-trafic-data{
+.boost-trafic-data {
   display: flex;
 }
-.best-of-container{
+.service_page_button {
+  background-color: #fc9d44;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+}
+
+.best-of-container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+.best-of-container_data {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.service_page_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+  padding-top: 2rem;
 }
 /* contact */
 /* form css */
 /* Style inputs, select elements and textareas */
-input[type=text],input[type=email] ,select, textarea{
+input[type="text"],
+input[type="email"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -223,8 +265,8 @@ label {
 }
 
 /* Style the submit button */
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -263,7 +305,9 @@ input[type=submit] {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
@@ -272,6 +316,25 @@ input[type=submit] {
 @media screen and (max-width: 650px) {
   .wrapper {
     font-size: 14px;
+  }
+  .best-of-container {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+  }
+  .best-of-container_data {
+    padding-top: 2rem;
+  }
+  .boost-trafic-data {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .boost-trafic-data h4 {
+    margin-top: 2rem;
+  }
+  .service_page_container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 1rem;
   }
 }
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -298,6 +361,11 @@ input[type=submit] {
   .soluton_container div {
     padding: 1rem;
   }
+  .about_page_box {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-top: 3rem;
+  }
 }
 
 .address {
@@ -309,7 +377,6 @@ input[type=submit] {
 .form {
   width: 80%;
 }
-
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -328,7 +395,12 @@ input[type=submit] {
   .soluton_container div {
     padding: 1rem;
   }
+  .service_page_container {
+    grid-template-columns: repeat(2, 1fr);
 
+    text-align: center;
+    padding-top: 2rem;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -338,4 +410,3 @@ input[type=submit] {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
-
