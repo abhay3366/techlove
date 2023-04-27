@@ -1,13 +1,13 @@
 function showFun() {
   console.log("detec")
   document.getElementById("navsidebar").style.display = "block";
+  document.getElementById("navsidebar").style.transation = "all 1s ";
 }
 
 function hideFun() {
   document.getElementById("navsidebar").style.display = "none";
 }
 
-// testimonils
 //Testimonial Data
 const testimonials = [
   {
