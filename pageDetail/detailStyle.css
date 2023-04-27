@@ -7,3 +7,18 @@
     width: 90%;
     margin: auto;
 }
+.prevbtn{
+    padding: 0.01rem 0.3rem;
+    border: 0px;
+    background-color: coral;
+    color: white;
+    margin: 1rem;
+}
+.prevbtn a{
+    color: white;
+    text-decoration: none;
+}
+.prevbtn:hover a{
+    color:rgb(41, 40, 40);
+    font-weight: 600;
+}
