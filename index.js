@@ -1,4 +1,5 @@
 function showFun() {
+  console.log("detec")
   document.getElementById("navsidebar").style.display = "block";
 }
 
@@ -10,11 +11,16 @@ function hideFun() {
 //Testimonial Data
 const testimonials = [
   {
-    name: "Rupendra Chaubet",
-    image: "profile-image-1.png",
+    name: "Rupendra Chaubey",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5yTxBxqX7UPLILheEuZbgOuYver2PQLQxuQ&usqp=CAU",
     testimonial:
       "Imagine web solution is really trustworthy, reasonable and professional company in web designing",
   },
+  {
+    name:"Shivam ",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWNTiq9IDokwKAKD68rWcfvb_790X2MOxIA&usqp=CAU",
+    testimonial:"It provide the best solution regarding web as well as digital marketing, <br> It give all possible way to increase traffic of my website, thanku Techlove."
+  }
 ];
 
 //Current Slide
