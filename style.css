@@ -108,7 +108,7 @@
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
   color: blueviolet;
 }
-.home-about-container h6,.home-choose-heading h6,.home-bestSolution-div h5{
+.home-about-container h6,.home-choose-heading h6,.home-bestSolution-div h5,.testimonial-box h4{
   filter: drop-shadow(8px 6px 4px rgb(201, 108, 50));
  color:purple;
  font-size: 1rem;
@@ -191,7 +191,7 @@
 /* testimonials */
 
 .wrapper {
-  background-color: #ffffff;
+  background-color: #fdfcfc;
   position: relative;
   width: 100%;
 
@@ -205,6 +205,14 @@
   /* position: relative; */
   /* margin: auto; */
   padding: 1.8em 1.2em;
+}
+.testimonial-box h2{
+  font-family: 'Proza Libre', sans-serif;
+}
+.testimonial-box h2 span{
+  font-family: 'Proza Libre', sans-serif;
+  color: blueviolet;
+  filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
 }
 .wrapper button {
   font-size: 1.8em;
@@ -227,6 +235,7 @@ button#next {
 button#prev {
   left: -1.1em;
 }
+.testimonial-box,
 .testimonial-container p {
   color: #8c8c90;
   text-align: center;
@@ -258,13 +267,14 @@ button#prev {
 }
 .footer_section_container {
   display: grid;
-  grid-template-columns: 25rem 1fr 1fr 1fr;
+  grid-template-columns: 25rem 1fr 24rem 1fr;
   width: 95%;
   margin: auto;
 }
 .footer_section_container ul li {
   list-style: none;
 }
+
 .footer_contact {
   display: flex;
   flex-direction: column;
@@ -291,9 +301,25 @@ button#prev {
 .footer_contact i {
  color: white;
 }
-.footer_service li a:hover{
+.footer_address li i{
+  color: white;
+}
+.footer_address li span{
+  color: white;
+  cursor: pointer;
+}
+.footer_address li a:hover{
   color: #fc9d44;
   text-decoration: none;
+}
+.footer_address li a span:hover{
+  color: #fc9d44;
+}
+.footer_address li a span{
+  padding-left: 15px;
+}
+.footer_address li span:hover{
+  color: #fc874d;
 }
 .footer_heading{
  color: #fc9d44;

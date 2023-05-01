@@ -19,7 +19,7 @@ const testimonials = [
   {
     name:"Shivam ",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWNTiq9IDokwKAKD68rWcfvb_790X2MOxIA&usqp=CAU",
-    testimonial:"It provide the best solution regarding web as well as digital marketing, <br> It give all possible way to increase traffic of my website, thanku Techlove."
+    testimonial:"It provide the best solution regarding web as well as digital marketing,  It give all possible way to increase traffic of my website, thanku Techlove."
   }
 ];
 
@@ -43,7 +43,7 @@ prevBtn.addEventListener("click", () => {
 
 let displayTestimonial = () => {
   testimonialContainer.innerHTML = `
-    // <p>${testimonials[i].testimonial}</p>
+     <p>${testimonials[i].testimonial}</p>
     <img src=${testimonials[i].image}>
     <h3>${testimonials[i].name}</h3>
    
