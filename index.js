@@ -1,3 +1,12 @@
+// scroll js
+function scrollWin() {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+}
+// sidebar js
 function showFun() {
   console.log("detec")
   document.getElementById("navsidebar").style.display = "block";

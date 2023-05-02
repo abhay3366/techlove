@@ -22,9 +22,14 @@ oza+Libre&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+<!-- animate css -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
     <title>Home</title>
     <link rel="stylesheet" href="style.css" />
-    
+  
   </head>
   <body>
    <!-- Navbar section -->
@@ -120,7 +125,7 @@ oza+Libre&display=swap" rel="stylesheet">
  <!-- banner -->
  <div class="container-fluid home_banner_div">
   <div>
-    <h1 class="card-text  banner_heading"><span class="promise-heading">We promise</span> to bring the best solution for your business.</h1>
+    <h1 class="animate__animated animate__bounce card-text  banner_heading"><span class="promise-heading">We promise</span> to bring the best solution for your business.</h1>
     <p class="banner-data">Our team of experts is ready to help you achieve your online goals with top-notch design, development, and marketing services. We're committed to your success and look forward to building a long-lasting partnership.</p>
     <button  class="banner_button">Contact Us </button>
   </div>
@@ -142,7 +147,7 @@ oza+Libre&display=swap" rel="stylesheet">
           <div class="card border-0"  style="background-color: transparent;">
            
             <div class="card-body home-about-container">
-               <h6><span>About Us</span></h6>
+               <h6 class="animate__animated animate__bounce"><span>About Us</span></h6>
               <h2 class="card-title home-about-heading">Boost Your <span >Business</span></h2>
               <h5 class="card-text">Empowering Your Online Presence with Comprehensive Web Solutions - Discover Our Expertise in Custom Design, E-commerce, SEO, and More.</h5>
               <p>Techlove is a web design and development company that specializes in creating visually stunning and functionally effective websites. Our team consists of skilled designers and developers who work tirelessly to ensure that every project we take on meets the needs and expectations of our clients.</p>
@@ -271,7 +276,12 @@ oza+Libre&display=swap" rel="stylesheet">
 					</div>
 				</div>
 			</div>
+
   		<!--Whatsapp Chat API End-->
+      <!-- scroll button -->
+      <button id="scrollBtn" onclick="scrollWin()">
+        <i class="fa fa-arrow-up fa-2x mt-1" aria-hidden="true"></i>
+      </button>
         <!-- footer section -->
         <div class="container-fluid footer_section">
           <div class="footer_section_container">
@@ -340,8 +350,9 @@ oza+Libre&display=swap" rel="stylesheet">
         </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="index.js"></script>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+   
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
