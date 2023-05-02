@@ -4,25 +4,29 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.home-about-container h6,.home-choose-heading h6,.home-bestSolution-div h5,.testimonial-box h4,.about_page_box div h4,.about-testimonials h4{
+.home-about-container h6,
+.home-choose-heading h6,
+.home-bestSolution-div h5,
+.testimonial-box h4,
+.about_page_box div h4,
+.about-testimonials h4 {
   filter: drop-shadow(8px 6px 4px rgb(201, 108, 50));
- color:purple;
- font-size: 1rem;
- font-weight: 600;
+  color: purple;
+  font-size: 1rem;
+  font-weight: 600;
 }
-.home-about-btn , .about_page_button{
+.home-about-btn,
+.about_page_button {
   padding: 5px 12px;
   border: 0px;
   margin-top: 1.2rem;
-  background-color: #FAA276;
+  background-color: #faa276;
   color: #f3f2f7;
   border-radius: 10px;
   box-shadow: 2px 2px #888888;
   position: absolute;
-  transition: all 0.5s ;
+  transition: all 0.5s;
 }
-
-
 
 .navbar_get_touch {
   background-color: transparent;
@@ -79,16 +83,16 @@
   background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
   background: linear-gradient(to right, #ff5e62, #ff9966);
 }
-.home_banner_div{
+.home_banner_div {
   background-image: url("./img/techlove-banner.png");
   background-size: contain;
   padding-top: 100px;
   background-repeat: no-repeat;
   padding-bottom: 12rem;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-.banner_button{
+.banner_button {
   padding: 7px 25px;
   border: 0px;
   margin-top: 1.2rem;
@@ -97,33 +101,32 @@
   border-radius: 10px;
   /* box-shadow: 5px 3px #f67272; */
 }
-.banner_button:hover{
+.banner_button:hover {
   background-color: #8c8c90;
   /* padding: 25rem; */
 }
 .banner_heading {
   font-size: 3rem;
-  font-family: 'Proza Libre', sans-serif;
+  font-family: "Proza Libre", sans-serif;
   color: white;
   text-shadow: 2px 2px #43e82d;
-  
 }
-.promise-heading{
+.promise-heading {
   font-size: 4rem;
-  font-family: 'Proza Libre', sans-serif;
+  font-family: "Proza Libre", sans-serif;
   /* filter: drop-shadow(5px 5px 10px rgb(193, 178, 12)); */
-  text-shadow: 2px 2px #FF0000;
+  text-shadow: 2px 2px #ff0000;
 }
-.banner-data{
-  font-family: 'Nunito Sans', sans-serif;
+.banner-data {
+  font-family: "Nunito Sans", sans-serif;
   font-size: 1.3rem;
   padding-top: 1.4rem;
 }
 /* home-about*/
-.home-about-heading{
-  font-family: 'Proza Libre', sans-serif;
+.home-about-heading {
+  font-family: "Proza Libre", sans-serif;
 }
-.home-about-heading span{
+.home-about-heading span {
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
   color: blueviolhome-about-btnet;
 }
@@ -139,40 +142,39 @@
   position: absolute;
   transition: all 0.5s ;
 } */
-.home-about-btn :hover{
+.home-about-btn :hover {
   /* background-color: #eb7f48; */
   color: blueviolet;
   transform: scale(1.05);
 }
-.about_page_button :hover{
+.about_page_button :hover {
   color: blueviolet;
 }
-.home-about-btn a{
+.home-about-btn a {
   color: white;
-
 }
 .choose_us_data {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.home-choose-heading h3{
-  font-family: 'Proza Libre', sans-serif;
+.home-choose-heading h3 {
+  font-family: "Proza Libre", sans-serif;
 }
-.home-choose-heading h3 span{
+.home-choose-heading h3 span {
   color: blueviolet;
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
 }
 .servicebox {
   transition: 0.5s ease-in-out;
 }
-.solution-heading{
-  font-family: 'Proza Libre', sans-serif;
+.solution-heading {
+  font-family: "Proza Libre", sans-serif;
 }
-.solution-heading span{
+.solution-heading span {
   color: blueviolet;
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
-  font-family: 'Proza Libre', sans-serif;
+  font-family: "Proza Libre", sans-serif;
 }
 
 .servicebox:hover {
@@ -222,22 +224,22 @@
   height: 100%;
   padding: 1.8em 1.2em;
 }
-.testimonial-box h2{
-  font-family: 'Proza Libre', sans-serif;
+.testimonial-box h2 {
+  font-family: "Proza Libre", sans-serif;
 }
-.testimonial-box h2 span{
-  font-family: 'Proza Libre', sans-serif;
+.testimonial-box h2 span {
+  font-family: "Proza Libre", sans-serif;
   color: blueviolet;
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
 }
-.about-testimonials h2{
-  font-family: 'Proza Libre', sans-serif;
+.about-testimonials h2 {
+  font-family: "Proza Libre", sans-serif;
 }
-.about-testimonials h2 span{
-  font-family: 'Proza Libre', sans-serif;
+.about-testimonials h2 span {
+  font-family: "Proza Libre", sans-serif;
   color: blueviolet;
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
-  font-family: 'Proza Libre', sans-serif;
+  font-family: "Proza Libre", sans-serif;
 }
 .wrapper button {
   font-size: 1.8em;
@@ -309,47 +311,46 @@ button#prev {
 
 .footer_section,
 .footer-box {
-  background-color: #2C3F46;
-    
+  background-color: #2c3f46;
 }
 .footer_section li a {
   list-style: none;
   color: white;
 }
-.footer_contact i a{
+.footer_contact i a {
   color: rgb(251, 248, 248);
 }
-.footer_contact i a:hover{
+.footer_contact i a:hover {
   color: #fc9d44;
   text-decoration: none;
 }
 .footer_contact i {
- color: white;
-}
-.footer_address li i{
   color: white;
 }
-.footer_address li span{
+.footer_address li i {
+  color: white;
+}
+.footer_address li span {
   color: white;
   cursor: pointer;
 }
-.footer_address li a:hover{
+.footer_address li a:hover {
   color: #fc9d44;
   text-decoration: none;
 }
-.footer_address li a span:hover{
+.footer_address li a span:hover {
   color: #fc9d44;
 }
-.footer_address li a span{
+.footer_address li a span {
   padding-left: 15px;
 }
-.footer_address li span:hover{
+.footer_address li span:hover {
   color: #fc874d;
 }
-.footer_heading{
- color: #fc9d44;
+.footer_heading {
+  color: #fc9d44;
 }
-.footer-bottom{
+.footer-bottom {
   background-color: #fc874d;
 }
 
@@ -357,7 +358,7 @@ button#prev {
   list-style: none;
 }
 .quick_link ul li a:hover {
-  color: #fc9d44!important  ;
+  color: #fc9d44 !important  ;
   text-decoration: none;
 }
 /* about */
@@ -368,13 +369,13 @@ button#prev {
   padding-top: 3rem;
   padding-bottom: 4rem;
 }
-.about_page_box div h3 span{
-  font-family: 'Proza Libre', sans-serif;
+.about_page_box div h3 span {
+  font-family: "Proza Libre", sans-serif;
   color: blueviolet;
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
 }
-.about_page_box div h3{
-  font-family: 'Proza Libre', sans-serif;
+.about_page_box div h3 {
+  font-family: "Proza Libre", sans-serif;
 }
 
 /* services */
@@ -391,7 +392,7 @@ button#prev {
 .best-of-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top:4rem;
+  padding-top: 4rem;
 }
 .best-of-container_data {
   display: flex;
@@ -405,13 +406,14 @@ button#prev {
   text-align: center;
   padding-top: 2rem;
 }
-.service_page_container_box:hover{
+.service_page_container_box:hover {
   /* background-color: #fc874d; */
   transform: scale(1.01);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.service_page_container_box{
-  transition: all 0.2s ease-in ;
+.service_page_container_box {
+  transition: all 0.2s ease-in;
 }
 /* contact */
 /* form css */
@@ -528,7 +530,7 @@ input[type="submit"] {
     gap: 1rem;
     padding-bottom: 1rem;
   }
-  .soluton_container p{
+  .soluton_container p {
     color: rgb(87, 83, 83);
   }
   .soluton_container div {
@@ -539,32 +541,29 @@ input[type="submit"] {
     gap: 3rem;
     padding-top: 3rem;
   }
-  .home_banner_div{
-   
+  .home_banner_div {
     padding-top: 0.8rem;
-  
+
     /* padding-bottom: 12rem; */
-    
+
     grid-template-columns: 1fr;
   }
-  .home_banner_div{
-   height: 800px;
-   background-size: cover;
-  
+  .home_banner_div {
+    height: 800px;
+    background-size: cover;
+
     /* background-repeat: repeat; */
-    
   }
   .banner_heading {
     font-size: 1.5rem;
-    font-family: 'Proza Libre', sans-serif;
+    font-family: "Proza Libre", sans-serif;
     color: white;
     text-shadow: 2px 2px #43e82d;
   }
-  .promise-heading{
+  .promise-heading {
     font-size: 2.5rem;
     /* line-height: 2rem; */
   }
-
 }
 
 .address {
@@ -600,7 +599,7 @@ input[type="submit"] {
     text-align: center;
     padding-top: 2rem;
   }
-  .home_banner_div{
+  .home_banner_div {
     grid-template-columns: 1fr;
   }
 }
@@ -611,4 +610,17 @@ input[type="submit"] {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+}
+
+/* animation */
+.home-banner-img {
+  position: relative;
+  top: 15px;
+  bottom: 10px;
+  animation-name: home-banner-img;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes home-banner-img {
+  50%  { top:40px;}
 }
