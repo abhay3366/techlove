@@ -9,12 +9,15 @@ function scrollWin() {
 // sidebar js
 function showFun() {
   console.log("detec")
-  document.getElementById("navsidebar").style.display = "block";
-  document.getElementById("navsidebar").style.transation = "all 1s ";
+  let x=document.getElementById("navsidebar")
+  x.style.right= "0rem"
+  x.style.transition="all 2s"
 }
 
 function hideFun() {
-  document.getElementById("navsidebar").style.display = "none";
+  let x=document.getElementById("navsidebar")
+  x.style.right= "-35rem"
+  x.style.transition="all 2s"
 }
 
 //Testimonial Data

@@ -51,6 +51,10 @@
   position: absolute;
   transition: all 0.5s;
 }
+.banner_button a{
+  color: white;
+  text-decoration: none;
+}
 
 .navbar_get_touch {
   background-color: transparent;
@@ -75,20 +79,26 @@
 .sidenavbar {
   width: 500px;
   height: 35.5rem;
-  display: none;
-  position: absolute;
-  top: 5.5rem;
-  right: 1px;
+  /* display: none; */
+  position: fixed;
+  top: 4.75rem;
+  right: -35rem;
   z-index: 691;
   padding: 1.2rem;
   background-color: #f3f2f7;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-/* .navsidebar:hover{
-  display: block;
-  background-color: coral;
-  transition: all 1s ;
+
+
+
+/* Show the div when the button is hovered over */
+/* #navbar_bar_logo: + .sidenavbar {
+  background-color: brown;
+  width: 500px;
+  transition: all 2s;
 } */
+
+
 #navbar_cross {
   color: rgb(241, 84, 84);
   padding: 0.5rem 0.5rem;
