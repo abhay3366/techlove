@@ -27,11 +27,17 @@
 .home-bestSolution-div h5,
 .testimonial-box h4,
 .about_page_box div h4,
-.about-testimonials h4 {
+.about-testimonials h4 ,.best-of-container_data h4,.service-page-container h3,.service_page_container_box h5,.contact-section h2{
   filter: drop-shadow(8px 6px 4px rgb(201, 108, 50));
   color: purple;
   font-size: 1rem;
   font-weight: 600;
+}
+.contact-section h2{
+  font-size: 1.5rem;
+}
+.service-page-container h3{
+  font-size: 1.5rem;
 }
 .home-about-btn,
 .about_page_button {
@@ -132,12 +138,11 @@
 .promise-heading {
   font-size: 4rem;
   font-family: "Proza Libre", sans-serif;
-  /* filter: drop-shadow(5px 5px 10px rgb(193, 178, 12)); */
   text-shadow: 2px 2px #ff0000;
 }
 .banner-data {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding-top: 1.4rem;
 }
 /* home-about*/
@@ -149,19 +154,7 @@
   color: blueviolhome-about-btnet;
 }
 
-/* .home-about-btn {
-  padding: 5px 12px;
-  border: 0px;
-  margin-top: 1.2rem;
-  background-color: #FAA276;
-  color: #f3f2f7;
-  border-radius: 10px;
-  box-shadow: 2px 2px #888888;
-  position: absolute;
-  transition: all 0.5s ;
-} */
 .home-about-btn :hover {
-  /* background-color: #eb7f48; */
   color: blueviolet;
   transform: scale(1.05);
 }
@@ -433,7 +426,30 @@ button#prev {
 .service_page_container_box {
   transition: all 0.2s ease-in;
 }
+.best-of-container_data h3 span{
+  font-family: "Proza Libre", sans-serif;
+  color: blueviolet;
+  filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
+}
+
 /* contact */
+.contact-section h5{
+  color: rgb(29, 50, 112);
+  filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
+  font-size: 1rem;
+}
+.contact-section p{
+  color: rgb(29, 50, 112);
+  /* filter: drop-shadow(8px 6px 4px rgb(253, 103, 10)); */
+}
+.contact-submit-btn{
+  background-color: #faa276;
+  padding: 3px 9px;
+  display: inline-block;
+}
+.contact-submit-btn a{
+  color: white;
+}
 /* form css */
 /* Style inputs, select elements and textareas */
 input[type="text"],
