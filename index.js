@@ -20,6 +20,27 @@ function hideFun() {
   x.style.transition="all 2s"
 }
 
+// service box
+// let element=document.querySelector("#techloveBody");
+// window.addEventListener("scroll",()=>{
+  
+//   // let scrollPx=window.pageYOffset
+//   let sc=window.scrollY
+//   let bb=document.getElementById("bb")
+//   bb.innerHTML=sc;
+//   if(sc>1740 || sc<3000){
+//     let data=document.getElementById("myHeading");
+//     data.style.color="red"
+//     data.style.transition="all 2s"
+//   }
+//   console.log(sc)
+// })
+// console.log(window.scrollY);
+// if(window.scrollY>1800){
+//   let data=document.getElementById("myHeading")
+// data.style.color="red"
+// }
+// console.log(window.scrollY)
 //Testimonial Data
 const testimonials = [
   {

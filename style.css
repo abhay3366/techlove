@@ -160,8 +160,8 @@
   font-family: "Proza Libre", sans-serif;
 }
 .home-about-heading span {
-  filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
-  color: blueviolhome-about-btnet;
+  /* filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
+  color: blueviolhome-about-btnet; */
 }
 
 .home-about-btn :hover {
@@ -397,6 +397,7 @@ button#prev {
 }
 .about_page_box div h3 {
   font-family: "Proza Libre", sans-serif;
+  font-size: 2.5rem;
 }
 
 /* services */
@@ -440,6 +441,10 @@ button#prev {
   font-family: "Proza Libre", sans-serif;
   color: blueviolet;
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
+  
+}
+.best-of-container_data h3{
+  font-size: 2.5rem;
 }
 
 /* contact */
@@ -608,6 +613,10 @@ input[type="submit"] {
     font-size: 2.5rem;
     /* line-height: 2rem; */
   }
+  .about_page_box div h3 {
+    font-family: "Proza Libre", sans-serif;
+    font-size: 1rem;
+  }
 }
 
 .address {
@@ -645,6 +654,10 @@ input[type="submit"] {
   }
   .home_banner_div {
     grid-template-columns: 1fr;
+  }
+  .about_page_box div h3 {
+    font-family: "Proza Libre", sans-serif;
+    font-size: 1.5rem;
   }
 }
 
