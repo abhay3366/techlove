@@ -160,8 +160,8 @@
   font-family: "Proza Libre", sans-serif;
 }
 .home-about-heading span {
-  /* filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
-  color: blueviolhome-about-btnet; */
+  filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
+  color: blueviolet;
 }
 
 .home-about-btn :hover {
@@ -185,6 +185,10 @@
 .home-choose-heading h3 span {
   color: blueviolet;
   filter: drop-shadow(8px 6px 4px rgb(253, 103, 10));
+}
+.home-about-container p{
+  font-size: 17px;
+  margin-top: 33px;
 }
 .servicebox {
   transition: 0.5s ease-in-out;
