@@ -8,33 +8,34 @@ function scrollWin() {
 }
 // sidebar js
 function showFun() {
-  console.log("detec")
-  let x=document.getElementById("navsidebar")
-  x.style.right= "0rem"
-  x.style.transition="all 2s"
+  console.log("detec");
+  let x = document.getElementById("navsidebar");
+  x.style.right = "0rem";
+  x.style.transition = "all 2s";
 }
 
 function hideFun() {
-  let x=document.getElementById("navsidebar")
-  x.style.right= "-35rem"
-  x.style.transition="all 2s"
+  let x = document.getElementById("navsidebar");
+  x.style.right = "-35rem";
+  x.style.transition = "all 2s";
 }
 
 // service box
-// let element=document.querySelector("#techloveBody");
-// window.addEventListener("scroll",()=>{
-  
-//   // let scrollPx=window.pageYOffset
-//   let sc=window.scrollY
-//   let bb=document.getElementById("bb")
-//   bb.innerHTML=sc;
-//   if(sc>1740 || sc<3000){
-//     let data=document.getElementById("myHeading");
-//     data.style.color="red"
-//     data.style.transition="all 2s"
+// let element = document.querySelector("#techloveBody");
+// window.addEventListener("scroll", () => {
+  //   // let scrollPx=window.pageYOffset
+  // let sc = window.scrollY;
+  // let bb = document.getElementById("bb");
+  // bb.innerHTML = sc;
+  // if (sc > 1740 || sc < 2500) {
+  //   let data = document.getElementById("myHeading");
+    // data.style.color = "red";
+//     data.style.transition = "all 2s";
+//     const element = document.querySelectorAll(".service-div");
+//     element.classList.add("animate__animated", "animate__backInLeft");
 //   }
-//   console.log(sc)
-// })
+//   console.log(sc);
+// });
 // console.log(window.scrollY);
 // if(window.scrollY>1800){
 //   let data=document.getElementById("myHeading")
@@ -45,15 +46,18 @@ function hideFun() {
 const testimonials = [
   {
     name: "Rupendra Chaubey",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5yTxBxqX7UPLILheEuZbgOuYver2PQLQxuQ&usqp=CAU",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5yTxBxqX7UPLILheEuZbgOuYver2PQLQxuQ&usqp=CAU",
     testimonial:
       "Imagine web solution is really trustworthy, reasonable and professional company in web designing",
   },
   {
-    name:"Shivam ",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWNTiq9IDokwKAKD68rWcfvb_790X2MOxIA&usqp=CAU",
-    testimonial:"It provide the best solution regarding web as well as digital marketing,  It give all possible way to increase traffic of my website, thanku Techlove."
-  }
+    name: "Shivam ",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWNTiq9IDokwKAKD68rWcfvb_790X2MOxIA&usqp=CAU",
+    testimonial:
+      "It provide the best solution regarding web as well as digital marketing,  It give all possible way to increase traffic of my website, thanku Techlove.",
+  },
 ];
 
 //Current Slide
